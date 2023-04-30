@@ -1,0 +1,22 @@
+POST http://localhost:3000/add_artist_info.php
+Content-Type: application/json
+
+{
+    "artist": {
+        "name": "Children of Bodom"
+    },
+    "album": {
+        "title": "Hatebreeder"
+    },
+    "tracks": [
+        {"name": "Warheart"},
+        {"name": "Silent Night, Bodom Night"},
+        {"name": "Hatebreeder"},
+        {"name": "Bed of Razors"},
+        {"name": "Towards Dead End"},
+        {"name": "Black Widow"},
+        {"name": "Wrath Within"},
+        {"name": "Children of Bodom"},
+        {"name": "Downfall"}
+    ]
+}
